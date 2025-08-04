@@ -1,4 +1,4 @@
-package intro;
+package rev.basics;
 
 class Student {
     int rno;
