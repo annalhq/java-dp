@@ -4,7 +4,6 @@ class Student {
     int rno;
     String name;
 
-
     // ALT+G for generators in intellij
     Student(){
         this.rno = 1;
