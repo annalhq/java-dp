@@ -1,4 +1,4 @@
-package cls;
+package cls.singleton;
 public class Singleton {
     private static Singleton instance;
     public String value;
