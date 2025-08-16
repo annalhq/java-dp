@@ -6,15 +6,18 @@ public class Teacher implements Person{
     public Teacher(String name) {
         this.name = name;
     }
-    
-    public Teacher clone(){
+
+    @Override
+    public Teacher clonePerson(){
         return new Teacher(this.name);
     }
 
+    @Override
     public String getName(){
         return name;
     }
 
+    @Override
     public void setName(String name){
         this.name = name;
     }

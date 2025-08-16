@@ -7,13 +7,17 @@ public class Student implements Person{
         this.name = name;
     }
 
-    public Student clone(){
+    @Override
+    public Student clonePerson(){
         return new Student(this.name);
     }
+
+    @Override
     public String getName(){
         return name;
     }
 
+    @Override
     public void setName(String name){
         this.name = name;
     }
